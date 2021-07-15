@@ -1,0 +1,266 @@
+#main{
+height: 100px;
+}
+.cart:hover {
+  color: #fff;
+  font-size: 10px;
+  display: inline-block;
+}
+
+body{
+	margin:0;
+        padding: 0;
+
+}
+
+.navbar{
+        margin:0;
+        width:100%;
+        height:20px;
+}
+* {box-sizing: border-box;}
+
+body {
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align:center-right;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.btn-group button {
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+
+p{
+  text-align:center;
+}
+
+#logo{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.mb-3{
+float:left;
+padding: 20px;
+text-align: justify;}
+
+.deals2{
+    float:left;
+  width:25%;
+  }
+
+form-label{padding-bottom: 50%;}
+.en{ 
+
+margin-top: 20px;
+}
+.email{text-align:left; float: left; }
+.alert-heading{text-align:center;}
+.containeremail{text-align: left;
+}
+    span[class='row'] {
+   display: block;
+   margin: 25px 0px;
+}   
+
+h1{padding-left: 0px;
+}
+label{
+         display: block;
+         font-size:20px;
+	     font-weight:bold;
+	  }
+	  
+.product-info {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 800px;
+}
+
+.product-name {
+  position: relative;	
+  border-radius: 4px;
+  right: 10px;  
+  padding: 0px;
+  width: 400px;
+} 
+.checked {
+  color: orange;
+}
+
+.box {
+  position: absolute;
+  top: 100px;
+  right: 180px;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+} 
+
+.boximage {
+  position: relative;	
+  left: 200px;
+  padding: 20px;
+} 
+
+.boximage:hover {
+  transform-origin: 90% 20%;
+  transition: transform 1s, filter .5s ease-out;
+  transform: scale(1.3); 
+  
+  
+} 
+.product-text-style {
+   text-align: left;
+} 
+*{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: tabl;
+}
+.add-to-card{
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.rate {
+  box-sizing: border-box;
+  padding: 15px 20px;
+  text-align: left;
+
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 11%;
+  margin-top:8px;  
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 68%;
+}
+
+/* Place text to the right */
+.left {
+  text-align: left;
+  padding-left: 90px;    
+}
+
+.right {
+  text-align: left;
+  padding-right: 90px;    
+}
+
+/* Clear floats after the columns */
+.rate:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {height: 18px; background-color: #4CAF50;}
+.bar-4 {height: 18px; background-color: #2196F3;}
+.bar-3 {height: 18px; background-color: #00bcd4;}
+.bar-2 {height: 18px; background-color: #ff9800;}
+.bar-1 {height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+
+
+
+
+
